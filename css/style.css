@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+footer{
+    background-color: rgb(227, 247, 255);
+    color: rgb(1, 8, 41);
+}
+
+footer .containt{
+    Min-width: 100%;
+    padding: 20px;
+    display: flex;
+}
+footer .left,
+footer .right{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+footer .info,
+footer .icon{
+    min-width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-wrap: wrap;
+}
+footer .info .text{width: 30%; position: relative;}
+footer h3{font-size: 15px;}
+footer .info .text ul{list-style: none; margin-top: 20px;}
+footer .info .text ul li{padding-top: 5px; font-size: 17px;}
+footer .info .text ul li a{text-decoration: none; color: #888;}
+footer .info .text ul li a:hover{color: #333;}
+footer .right .icon .fond{position: relative;}
+footer .right .icon .fond a{text-decoration: none;}
+
+footer .right .icon .fond a i,
+footer .right .icon .ap i{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 23px;
+    color: #000;
+}
+
+footer .right .imges{margin-top: 20px;}
+
+footer .right .imges img{
+    width: 50px;
+    height: 30px;
+    margin-top: 20px;
+    padding: 3px;
+}
+/*******************************/
+/********* Contact CSS *********/
+/*******************************/

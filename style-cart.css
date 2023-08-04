@@ -1,0 +1,54 @@
+
+h1
+{
+    color: black;
+}
+
+
+.content-cart
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 40px;
+    row-gap: 80px;
+    align-items: center;
+    margin: 50px 0px;
+    padding: 50px;
+}
+button
+{
+    cursor: pointer;
+}
+table
+{
+    margin: auto;
+    width: 100%;
+    margin-top: 80px;
+}
+table tr th,table tr td
+{
+    padding: 15px;
+    text-align: center;
+}
+table tr th
+{
+    background-color:#008B8B;
+
+    color: white;
+}
+table tr td
+{
+    background-color:#022a30;
+    height: 100px;
+}
+
+span
+{
+    margin: 0px 10px;
+}
+
+#productInCart i
+{
+    font-size: 30px;
+    cursor: pointer;
+}
